@@ -1,4 +1,4 @@
-import Home from "../screens/home/index";
+import Home from "screens/home";
 
 module.exports = {
     menu: {
