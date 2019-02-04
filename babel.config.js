@@ -9,7 +9,10 @@ module.exports = function (api) {
                     alias: {
                         "style": "./src/style",
                         "navigation": "./src/navigation",
-                        "screens":"./src/screens"
+                        "screens":"./src/screens",
+                        "service":"./src/service",
+                        "helpers":"./src/helpers",
+                        "config":"./config/dev" //figure this out later.
                     }
                 }
             ]
