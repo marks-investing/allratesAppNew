@@ -1,5 +1,7 @@
 import Text from "./text";
+import View from "./view";
 
 module.exports = {
-    text:Text
+    text:Text,
+    view:View
 }
