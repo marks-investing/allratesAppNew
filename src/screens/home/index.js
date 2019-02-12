@@ -1,5 +1,5 @@
 import React from "react";
-
+import LText from "components/LText"
 import TextStyles from "style/text"
 
 import {
@@ -15,12 +15,7 @@ export default class Index extends React.Component {
         const {navigate} = this.props.navigation;
 
         return (
-            <View>
-                <Text style={TextStyles.h1}>Bye</Text>
-                <Button rounded danger onPress={()=>navigate('home2')}>
-                    <Text>Danger</Text>
-                </Button>
-            </View>
+                <LText style={TextStyles.h1}>bla</LText>
         );
     }
 }
