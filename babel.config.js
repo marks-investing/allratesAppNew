@@ -13,7 +13,10 @@ module.exports = function (api) {
                         "service":"./src/service",
                         "helpers":"./src/helpers",
                         "components":"./src/components",
-                        "config":"./config/dev" //figure this out later.
+                        "reducers":"./src/reducers",
+                        "actions":"./src/actions",
+                        "config":"./config/dev", //figure this out later.
+                        "resources":"./resources/"
                     }
                 }
             ]
