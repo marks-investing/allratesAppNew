@@ -1,6 +1,6 @@
 import React from "react";
 import LText from "components/LText"
-import TextStyles from "style/text"
+import Style from "style"
 
 import {
     Button, Content, Text,
@@ -8,14 +8,17 @@ import {
 } from "native-base";
 
 
-
-
 export default class Index extends React.Component {
     render() {
         const {navigate} = this.props.navigation;
 
         return (
-                <LText style={TextStyles.h1}>bla</LText>
+            <View style={Style.view.content}>
+                <Text style={Style.text.h1}> works <LText>bla</LText></Text>
+                <View style={Style.view.box}>
+                    <Text style={Style.text.h1}> works <LText>bla</LText></Text>
+                </View>
+            </View>
         );
     }
 }

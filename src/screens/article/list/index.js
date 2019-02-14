@@ -29,7 +29,7 @@ export default class Index extends React.Component {
     render() {
         const {navigate} = this.props.navigation;
         return (
-            <View>
+            <View style={Style.view.content}>
                 <Text style={Style.text.h1}>test</Text>
                 <ScrollView>
                     {this.state.articles.map(article=>

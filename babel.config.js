@@ -16,7 +16,7 @@ module.exports = function (api) {
                         "reducers":"./src/reducers",
                         "actions":"./src/actions",
                         "config":"./config/dev", //figure this out later.
-                        "resources":"./resources/"
+                        "i18n":"./i18n/"
                     }
                 }
             ]
